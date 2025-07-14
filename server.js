@@ -54,6 +54,7 @@ const {code,descr} = req.body;
         .query("INSERT into CS_TblLnClass (code,descr) values (@code,@descr)");
         res.send("Loan Class Added");
     } catch (error){
+        console.error("Insert Error:", error);
         res.status(500).send(error.message);
     }
 });
