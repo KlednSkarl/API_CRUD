@@ -50,7 +50,7 @@ const {code,descr} = req.body;
     try{
         await pool.request()
         .input("code",sql.VarChar,code)
-        .input("Descr",sql.VarChar,descr)
+        .input("descr",sql.VarChar,descr)
         .query("INSERT into CS_TblLnClass (code,Descr) values (@code,@descr)");
         res.send("Loan Class Added");
     } catch (error){

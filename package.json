@@ -15,5 +15,14 @@
     "express": "^5.1.0",
     "mssql": "^11.0.1"
   },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlednSkarl/API_CRUD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KlednSkarl/API_CRUD/issues"
+  },
+  "homepage": "https://github.com/KlednSkarl/API_CRUD#readme",
   "description": ""
 }
